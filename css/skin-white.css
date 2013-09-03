@@ -335,6 +335,12 @@ select {
   font: 15px/1.6 Lato, Helvetica, Arial, sans-serif;
   color: #666666;
 }
+.hr {
+  margin: 25px 0;
+  height: 1px;
+  background: #9fa5ac;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, #9fa5ac));
+}
 p,
 ul,
 ol,
@@ -382,12 +388,12 @@ figure + .section-heading,
 }
 h1 {
   margin: 0 0 50px;
-  font: 30px/1 Lato, Helvetica, Arial, sans-serif;
+  font: 50px/1 Lato, Helvetica, Arial, sans-serif;
   color: #999999;
 }
 h2 {
   margin: 0 0 24px;
-  font: bold 17px/1.3 Lato, Helvetica, Arial, sans-serif;
+  font: 24px/1.3 Lato, Helvetica, Arial, sans-serif;
   color: #999999;
 }
 h2.light {
@@ -1672,7 +1678,7 @@ textarea.placeholder {
 #header h1 {
   margin: 0;
   text-transform: uppercase;
-  font: 62px;
+  font: 62px/1 Lato, Helvetica, Arial, sans-serif;
   letter-spacing: .05em;
   color: inherit;
 }
@@ -1684,9 +1690,9 @@ textarea.placeholder {
 }
 #header h2 {
   opacity: .8;
-  margin: 15px 0 0;
+  margin: 18px 0 0;
   text-transform: uppercase;
-  font: 10px/1 Palatino, "Times New Roman", Georgia, Lato, Helvetica, Arial, sans-serif;
+  font: 18px/1 Lato, Helvetica, Arial, sans-serif;
   letter-spacing: .1em;
   color: inherit;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
