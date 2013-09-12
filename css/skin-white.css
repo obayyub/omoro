@@ -895,6 +895,7 @@ a:hover {
 }
 img {
   max-width: 100%;
+  border:1px solid #c3c3c3;
 }
 /* ==========================================================================
    7. Forms
@@ -1727,7 +1728,7 @@ textarea.placeholder {
 }
 #mainnav li {
   display: inline-block;
-  width: 280px;
+  width: 30%;
   height: 100px;
   padding: 0;
   overflow: hidden;
@@ -2019,7 +2020,7 @@ textarea.placeholder {
 #mobile-nav-header {
   margin: 0 0 0 38px;
   text-transform: uppercase;
-  font: bold 15px/1 Palatino, "Times New Roman", Georgia, Lato, Helvetica, Arial, sans-serif;
+  font: bold 15px/1 Lato, Helvetica, Arial, sans-serif;
   line-height: 1;
   color: #aeaeae;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
