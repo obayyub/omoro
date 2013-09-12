@@ -1731,9 +1731,7 @@ textarea.placeholder {
   width: 30%;
   height: 100px;
   padding: 0;
-  overflow: hidden;
   position: relative;
-  white-space: nowrap;
   font: bold 14px/1 Lato, Helvetica, Arial, sans-serif;
   color: #999999;
   text-shadow: 0 1px 0 #ffffff;
